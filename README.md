@@ -24,10 +24,14 @@ git config --global user.email "seuemail@exemplo.com"
 
 ### 2. Configurando a Chave SSH (Acesso Seguro)
 **Gerar a chave:** 
-```ssh-keygen -t ed25519 -C "seuemail@exemplo.com"``` 
+```bash
+ssh-keygen -t ed25519 -C "seuemail@exemplo.com"
+``` 
 
 **Copiar a chave:** 
-```cat ~/.ssh/id_ed25519.pub``` 
+```bash
+cat ~/.ssh/id_ed25519.pub
+``` 
 (Copie o código que começa com `ssh-ed25519`).
 
 **Cadastrar na Web:** Vá em Settings > SSH Keys no seu perfil (GitHub) e cole a chave lá.
