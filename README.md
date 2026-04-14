@@ -100,3 +100,4 @@ git push -u origin seu-nome
 4. Envie: `git push`
 
 **Bons estudos! Sua jornada no YouX Lab 2026-1 está apenas começando!** ✨
+goku
