@@ -1,4 +1,4 @@
-#Le o numero digitado e mostra o dobro, triplo e a sua raiz quadrada.
+#Le o numero digitado e mostra, dobro, triplo e a sua raiz quadrada.
 
 n = int(input("Digite um numero: "))
 dobro = n * 2

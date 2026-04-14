@@ -1,5 +1,5 @@
 #Crie um programa que leia um valor digitado em metros, e o mostre em milimetros e centimetros
-m = float(input("Digite um valor em metros: "))
+m = int(input("Digite um valor em metros: "))
 Mm = m * 1000
 Cm = m * 100
-print(f"Em metro é: {m} \n Em Mm é: {Mm} \n E em Cm é {Cm}")
+print(f"Em metro é: {m} \n em Mm é: {Mm} \n e em Cm é {Cm}")
