@@ -1,0 +1,21 @@
+print('olá, Mundo!')
+print(7+4)
+print('7'+ '4')
+print('olá ', 5)
+nome = 'Maria Fernanda'
+idade = 16
+peso = 52.08
+print(nome, idade, peso)
+mome = input('qual é o seu nome? ')
+idade = input('qual é sua idade? ')
+peso = input('qual é seu peso? ')
+print(nome, idade, peso)
+print('olá  Maria Fernanda ! Prazer em te conhecer')
+Dia = input('dia =')
+Mes = input('mes =')
+ano = input('ano =')
+print('Voce nasceu no dia ', Dia, 'de', Mes, 'de', ano, 'correto?' )
+numero1= int(input('digite um valor:'))
+numero2= int(input('digite um valor:'))
+soma= (numero1+numero2)
+print(soma)
