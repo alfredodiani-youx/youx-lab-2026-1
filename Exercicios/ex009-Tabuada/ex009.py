@@ -1,0 +1,12 @@
+tb= int(input('Digite um número: '))
+
+print('{} * {} = {}'.format(tb , 1 , tb * 1))
+print('{} * {} = {}'.format(tb , 2 , tb * 2))
+print('{} * {} = {}'.format(tb , 3 , tb * 3))
+print('{} * {} = {}'.format(tb , 4 , tb * 4))
+print('{} * {} = {}'.format(tb , 5 , tb * 5))
+print('{} * {} = {}'.format(tb , 6 , tb * 6))
+print('{} * {} = {}'.format(tb , 7 , tb * 7))
+print('{} * {} = {}'.format(tb , 8 , tb * 8))
+print('{} * {} = {}'.format(tb , 9 , tb * 9))
+print('{} * {} = {}'.format(tb , 10 , tb * 10))

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e600d5a0-8cd8-4124-859e-64859f85d28d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Aulas/Aula04-PrimeirosComandos/Aula04-PrimeirosComandos.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Aulas/Aula04-PrimeirosComandos/Aula04-PrimeirosComandos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/ex001-DeixandoTudoPronto/ex001.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/ex002-RespondendoAoUsuario/ex002.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/ex003-SomandoDoisNumeros/ex003.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/ex004-DissecandoUmaVariavel/ex004.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/ex005-AntecessorESucessor/ex005.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/ex006-DobroTriploRaizquadrada/ex006.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/ex007-MediaAritmedica/ex007.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/ex008-ConversorDeMedidas/ex008.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/ex009-Tabuada/ex009.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/ex010-ConversorDeMoedas/ex010.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/ex011-PintandoParede/ex011.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/ex012-CalculandoDescontos/ex012.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/ex013-ReajusteSalarial/ex013.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/ex014-ConversorDeTemperatura/ex014.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/ex015-AluguelDeCarros/ex015.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3CMzvxWw4nfzN1iTfdyoYyUD2p5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/institutoyoux/youx-lab-2026-1/logicaProgramacao/Exercicios",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-b63d5a1f7c97-b61e75351b1f-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.22158.340" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e600d5a0-8cd8-4124-859e-64859f85d28d" name="Changes" comment="" />
+      <created>1776210461049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776210461049</updated>
+      <workItem from="1776210462429" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
