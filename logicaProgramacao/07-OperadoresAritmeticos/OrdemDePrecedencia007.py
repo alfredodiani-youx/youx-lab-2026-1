@@ -1,6 +1,6 @@
 #1 ()
 #2 **
-#3 * / // (divisao)
+#3 * / // %
 #4 + -
 
 n1 = int(input('Um valor: '))
