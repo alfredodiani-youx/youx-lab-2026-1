@@ -1,0 +1,6 @@
+n = input('Digite algo: ')
+print('O tipo e' , type(n))
+print('E um numero' , n.isnumeric())
+print('E uma letra' , n.isalpha())
+print('E uma letra minuscula' , n.islower())
+print('E uma letra maiuscula' , n.isupper())
