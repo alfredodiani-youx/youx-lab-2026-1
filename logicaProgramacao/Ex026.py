@@ -1,0 +1,5 @@
+Frase = str(input('Digite uma frase: ')).upper().strip()
+Frase2 = Frase.count('A')
+print(f'A letra A aparece {Frase2} vezes')
+print('A primeira letra A aparece na posicao {}'.format(Frase.find('A')+1))
+print('A ultima letra A aparece na posicao {}'.format(Frase.rfind('A')+1))
