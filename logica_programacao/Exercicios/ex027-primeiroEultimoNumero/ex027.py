@@ -1,0 +1,5 @@
+nome = str(input('digite seu nome completo:')).strip()
+lista_nome =nome.split()
+print('Prazer em te conhecer!')
+print(f'seu primeiro nome é {lista_nome[0]}')
+print(f'seu segundo nome é {lista_nome[-1]}')
