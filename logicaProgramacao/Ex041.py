@@ -1,7 +1,6 @@
 from datetime import date
 Ano = int(input('Ano de nascimento: '))
 Idade = date.today().year - Ano
-print(Idade)
 print(f'O Atleta tem {Idade} anos')
 
 if Idade < 9:
