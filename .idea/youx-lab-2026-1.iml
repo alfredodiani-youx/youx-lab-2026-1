@@ -3,7 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
-      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/04-PrimeirosComandosPython/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/Mundo_1/04-PrimeirosComandosPython/.venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.12 (youx-lab-2026-1)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
