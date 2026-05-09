@@ -4,7 +4,7 @@
     bgdark: #222;
     radius: 0.25rem;  /* infelizmente o firefox que usei para desenvolver não permitiu o uso de var() para diversas funções como border-radius (bug reportado ao alfredo)*/
 }
-button, body, select, input {
+button, body, select, input, a {
     font-family: "DM Sans", sans-serif;
     color: var(--color);
 }
@@ -21,22 +21,16 @@ body {
 }
 
 
-.back {
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-    opacity: 1
-}
-
-
 .banner {
     position: absolute;
     min-width: 100vw;
-    max-width: 300%;
+    max-width: 290%;
     z-index: -1;
-    opacity: 0.3
+    opacity: 0.2
 }
-
+.back {
+    display: none;
+}
 
 .topHeader {
     display: flex;
@@ -51,10 +45,12 @@ body {
     margin-right: auto;
 } 
 .topHeader > .language {
-    padding: 0.4rem 1rem;
-    border: 1px solid #fff;
-    border-radius: calc(1rem / 4);
     margin-right: calc(1rem - (1rem * 0.2));
+}
+.language {
+    padding: 0.4rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: calc(1rem / 4);
     backdrop-filter: blur(2px);
     background-color: rgba(10, 10, 10, 0.8);
 }
@@ -68,22 +64,22 @@ body {
 
 .elementoTextos {
     display: flex;
+    margin-top: 16.5%;
     flex-direction: column;
 }
-.title {
+.elementoTextos > .title {
     text-align: center;
     margin: 0;
-    margin-top: 16.5%;
     text-align: center;
 }
-.subtitle {
+.elementoTextos > .subtitle {
     margin: 0.5rem;
     font-weight: 400;
     font-size: 1rem;
     text-align: center;
 }
 
-form {
+.firstCta {
     margin-top: 3.5%;
     width: 100%;
     max-width: auto;
@@ -92,6 +88,9 @@ form {
     flex-direction: column;
     place-items: center;
     position: relative;
+}
+.firstCta > input {
+    margin-bottom: 5%;
 }
 form > input {
     padding: 0 ;
@@ -103,7 +102,6 @@ form > input {
     padding-left: 4%;
     background-color: rgba(100, 100, 100, 0.25);
     border: 1px solid rgba(255, 255, 255, 0.25);
-    margin-bottom: 5%;
 }
 form > button {
     max-width: 40%;
@@ -142,7 +140,7 @@ form > button {
     border-radius: 100%;
     aspect-ratio: 1;
 }
-.line > div {
+.line > .circulo {
     background-color: #000;
     width: 100%;
     aspect-ratio: 1;
@@ -151,29 +149,326 @@ form > button {
 
 
 .about {
-    width: 100%;
+    width: 100vw;
     background-color: #000;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 5%;
+    opacity: 1
+}
+.about > .blur {
+    overflow: hidden;
+    position: relative;
+    width: 500%;
+    position: absolute;
+    margin-top: -29%;
+    display: flex;
+    justify-content: center;
+    aspect-ratio: 1;
+    border-radius: 300rem;
+}
+.about > .blur > div {
+    position: absolute;
+    top: -18%;
+    background-color: #131d46;
+    filter: blur(50px);
+    width: 20%;
+    aspect-ratio: 1;
 }
 .about > .adora {
     position: relative;
     width: 98%;
-    padding: 2%;
+    border-radius: 1rem;
+    padding: 8% 6%;
     max-width: 98%;
-    background: linear-gradient(to top right, #494052, #161a3f);
+    background: linear-gradient(to top right, #231835, #161a3e);
     display: flex;
     flex-direction: column;
 }
-.adora > img {
+.about > .adora > span > strong {
+    font-size: 1.15rem;
+}
+.about > .adora > button {
+    padding: 3%;
+    margin-top: 6%;
+    max-width: 35%;
+    font-weight: bold;
+    font-size: 100%;
+    background-color: rgba(100, 100, 100, 0.5);
+    border: none;
+    border-radius: 0.5rem;
+}
+.about > .adora > img {
     position: absolute;
     width: 20%;
+    margin-top: -22%;
+}
+.about > .title {
+    width: 100%;
+    margin-top: 16%;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+.about > .filmes {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-top: 4%;
+}
+.about > .filmes > .filme {
     margin-left: 4%;
-    margin-top: -15%;
+    margin-right: 8%;
+    min-width: 30%;
+    display: flex;
+    position: relative;
+}
+.about > .filmes > .filme > img {
+    border-radius: 0.5rem;
+    width: 100%;
+}
+.about > .filmes > .filme > span {
+    color: black;
+    font-size: 5rem;
+    width: 110%;
+    max-width: 110%;
+    font-weight: 900;
+    position: absolute;
+    bottom: -5%;
+    left: -10%;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+
+.about > .motivo {
+    position: relative;
+    width: 98%;
+    border-radius: 1rem;
+    padding: 6%;
+    padding-bottom: 1%;
+    max-width: 98%;
+    background: linear-gradient(to top left, #250f22 20%, #202b5b);
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.about > .motivo > span {
+    opacity: 0.7;
+}
+.about > .motivo > strong {
+    margin-bottom: 2%;
+    font-size: 1.20rem;
+    opacity: 1;
+}
+.about > .motivo > img {
+    margin-left: auto;
+    width: 4rem;
+    margin-right: -5%;
+    margin-top: 3%;
+}
+.about > .faq {
+    margin-top: 3%;
+    width: 100%;
+}
+.about > .faq > details {
+    width: 98%;
+    background-color: #2d2d2d;
+    margin-top: 3%;
+    overflow: hidden;
+    position: relative;
+}
+.about > .faq > details > summary {
+    padding: 6%;
+    display: flex;
+    max-width: 70%;
+    align-items: center;
+    cursor: pointer;
+}
+.about > .faq > details > summary::marker {
+    display: none;
+}
+.about > .faq > details > summary::after {
+    content: "+";
+    font-weight: 200;
+    position: absolute;
+    right: 2rem;
+    font-size: 3rem;
+    transition: transform 0.05s;
+}
+.about > .faq > details[open] > summary::after {
+    content: '-';
+    transform: rotate(360deg);
+}
+.reply {
+    border-top: 2px solid #000;
+    padding: 1rem;
+    font-weight: 500;
 }
 
 
-@media (min-width: 769px) {
+footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+}
+footer > .formCta {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer > .formCta > input {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+footer > .duvidas {
+    color: #fff;
+    margin-top: 20%;
+    width: 90%;
+    opacity: 0.6;
+}
+footer > .duvidas > a {
+    cursor: pointer;
+}
+footer > .links {
+    margin-top: 10%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0.6;
+}
+footer > .links > a {
+    min-width: 55%;
+    margin-bottom: 2%;
+}
+footer > .language {
+    margin-right: auto;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+footer > .name {
+    width: 90%;
+    margin-top: 10%;
+    opacity: 0.8;
+}
 
+@media (min-width: 600px) {
+    .back {
+        display: block;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        opacity: 0
+    }
+    .banner {
+        max-width: 200%;
+    }
+    .topHeader {
+        padding: 5%;
+    }
+    .topHeader > .logo {
+        width: 16%;
+    }
+
+
+    .elementoTextos {
+        margin-top: 12%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .elementoTextos > h1,h5 {
+        max-width: 70%;
+    }
+    .firstCta {
+        max-width: 72%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 2%;
+    }
+    .firstCta > input {
+        margin-bottom: 0;
+        max-width: 40%;
+    }
+    .firstCta > button {
+        margin: 0;
+        margin-top: 0;
+        max-width: 35%;
+    }
+
+    .about > .blur {
+        margin-top: -29.5%;
+    }
+    .about > .adora {
+        padding: 0;
+        padding: 3%;
+        max-width: 75%;
+        margin-top: -17%;
+        margin-left: auto;
+        display: flex;
+        flex-direction: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2%;
+    }
+    .about > .adora > img {
+        margin-left: -26%;
+        margin-top: -5%;
+        width: 18%;
+    }
+    .about > .adora > span {
+        margin: 0;
+        max-width: 70%;
+    }
+    .about > .adora > button {
+        margin: 0;
+        padding: 2% 2%;
+        max-width: 30%;
+        max-height: 50%;
+        font-size: 100%;
+    }
+    .about > .filmes > .filme {
+        min-width: 20%;
+    }
+    .about > .filmes > .filme > span {
+        font-size: 6rem;
+    }
+    .formCta {
+        display: flex;
+        align-items: center;
+        gap: 4%;
+    }
+    .formCta > button {
+        margin: 0;
+        max-height: 40%;
+        max-width: 25%;
+    }
+}
+@media (min-width: 960px) {
+    .elementoTextos {
+        margin-top: 8%;
+        font-size: 120%;
+        max-width: 70%;
+    }
+    .banner {
+        max-width: 150%;
+    }
+    .firstCta {
+        margin-top: 0;
+        max-width: 50%;
+    }
+    .formCta {
+        max-width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (min-width: 1080) {
+    .faq summary, .faq section {
+        padding: 0;
+    }
 }
