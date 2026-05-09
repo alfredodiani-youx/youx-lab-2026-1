@@ -28,9 +28,6 @@ body {
     z-index: -1;
     opacity: 0.2
 }
-.back {
-    display: none;
-}
 
 .topHeader {
     display: flex;
@@ -356,13 +353,6 @@ footer > .name {
 }
 
 @media (min-width: 600px) {
-    .back {
-        display: block;
-        width: 100%;
-        position: absolute;
-        z-index: -1;
-        opacity: 0
-    }
     .banner {
         max-width: 200%;
     }
