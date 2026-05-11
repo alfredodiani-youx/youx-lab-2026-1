@@ -1,0 +1,11 @@
+Tabela = ('Palmeiras','Flamengo','Fluminese','Sao Paulo','Athletico Pr','Bahia','Bragantino','Vasco','Coritiba','Ec Vitoria','Cruzeiro','Botafogo','Atletico Mg','Internacional','Santos','Corinthias',
+         'Gremio','Mirassol','Remo' ,'Chapecoense')
+print(f'Lista de Times do Brasleirao: {Tabela}')
+print('-=-' * 20)
+print(f'Os cinco primeiros sao:{Tabela[0:5]}')
+print('-=-' * 20)
+print(f'Os ultimos quatro sao: {Tabela[16:]}')
+print('-=-' * 20)
+print(f'Em ordem alfabetica: {sorted(Tabela)}')
+print('-=-' * 20)
+print(F'O Cruzeiro esta na {Tabela.index("Cruzeiro")+1} posicao')
