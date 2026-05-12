@@ -5,7 +5,7 @@ primeiro = int(input('digite um numero, para calcular sua variavel: '))
 contador = primeiro
 fatorial = 1
 
-while fatorial > 0:
+while contador > 0:
     fatorial = fatorial * contador
     contador = contador - 1
 print(fatorial)
