@@ -1,16 +1,16 @@
 from datetime import date
-N1 = int(input('Ano de nascimento: '))
-N2 = date.today().year
-N3 = N2 - N1
-if N3 <= 9:
+idade = int(input('Ano de nascimento: '))
+anoAtual = date.today().year
+totalIdade = anoAtual - idade
+if totalIdade <= 9:
     print('MIRIM')
-elif N3 <= 14:
+elif totalIdade <= 14:
     print('INFANTIL')
-elif N3 <= 19:
+elif totalIdade <= 19:
     print('JÚNIOR')
-elif N3 <= 25:
+elif totalIdade <= 25:
     print('SÊNIOR')
-elif N3 > 25:
+elif totalIdade > 25:
     print('MASTER')
 else:
     print('ERRO')
