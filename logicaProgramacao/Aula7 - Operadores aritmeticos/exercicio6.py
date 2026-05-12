@@ -7,3 +7,4 @@ raiz = n ** (1/2)
 print(f"o dobro de {n} é {dobro}")
 print(f"o triplo de {n} é {triplo}")
 print(f"A raiz de {n} é {raiz}")
+

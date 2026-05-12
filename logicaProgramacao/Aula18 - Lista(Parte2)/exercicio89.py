@@ -1,0 +1,28 @@
+#Crie um programa que leia nome e duas notas de vários alunos e guarde tudo em uma lista composta.
+#No final, mostre um boletim contendo a média de cada um e permita que o usuário possa mostrar as notas de cada aluno individualmente.
+from encodings import normalize_encoding
+
+lista = []
+cont = 0
+while True:
+    lista.append([])
+    lista[cont].append(input("Digite o nome do aluno: "))
+    lista[cont].append(float(input("Digite a nota do aluno: ")))
+    lista[cont].append(float(input("Digite a segunda nota do aluno: ")))
+    media = (lista[cont][1] + lista[cont][2]) / 2
+    lista[cont].append(media)
+    opcao = input("Deseja cadastrar a nota de mais algum aluno?[S/N] ").upper()
+    if opcao in 'N':
+        break
+    cont += 1
+print(f"{'No.':<6}{'NOME':<10}{'MEDIA':>6}")
+for indice, aluno in enumerate (lista):
+    print(indice, f"{aluno[0]:<15}  {aluno[3]:.1f}")
+
+while True:
+    aluno = int(input("Voce deseja ver as notas de qual aluno? (Digite 999 para parar) \n"))
+    if aluno == 999:
+        break
+    else:
+        print(f"As notas do {lista[aluno][0]} foram {lista[aluno][1:3]}")
+print("Encerrando programa! \nVolte sempre")
