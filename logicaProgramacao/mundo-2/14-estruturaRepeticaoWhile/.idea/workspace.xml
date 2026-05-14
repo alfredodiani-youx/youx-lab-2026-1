@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc57b502-1b5d-4ea6-9844-8c177714e4cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/desafios/desafio60.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/desafios/desafio63.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/desafios/desafio64.py" afterDir="false" />
@@ -45,6 +49,8 @@
       <change afterPath="$PROJECT_DIR$/../../mundo-3/21-funcoes2/desafio/desafio101.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mundo-3/21-funcoes2/desafio/desafio102.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mundo-3/21-funcoes2/desafio/desafio103.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mundo-3/21-funcoes2/desafio/desafio104.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mundo-3/21-funcoes2/desafio/desafio105.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mundo-3/desafiologica/desafioLogica.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../mundo-3/desafiologica/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../mundo-1/04-tiposPrimitivos/desafioTiposPrimitivos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mundo-1/04-tiposPrimitivos/desafioTiposPrimitivos/.idea/vcs.xml" afterDir="false" />
@@ -59,10 +65,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3DaTxcwopjkYNfbPHpzDdaA5PUW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -79,6 +85,7 @@
     "git-widget-placeholder": "laber-vinicius",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/home/youx/Atividades/youx-lab-2026-1/logicaProgramacao/mundo-2/14-estruturaRepeticaoWhile",
+    "nodejs_package_manager_path": "npm",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -99,6 +106,8 @@
       <option name="presentableId" value="Default" />
       <updated>1778519428598</updated>
       <workItem from="1778519429719" duration="268000" />
+      <workItem from="1778528385846" duration="31000" />
+      <workItem from="1778528435692" duration="8000" />
     </task>
     <servers />
   </component>

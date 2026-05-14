@@ -31,5 +31,5 @@ def resumo(v, a, r):
     print(f'Preço analizado:  R${v:.2f}')
     print(f'Dobro do preço:  R${v*2:.2f}')
     print(f'Metade do preço:  R${v/2:.2f}')
-    print(f'{a}% de aumento:  R${v + (v*a/100):2}')
+    print(f'{a}% de aumento:  R${v + (v*a/100):.2f}')
     print(f'{r}% de redução:  R${v - (v*r/100):.2f}')

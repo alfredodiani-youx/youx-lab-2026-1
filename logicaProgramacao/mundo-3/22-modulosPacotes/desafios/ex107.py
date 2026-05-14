@@ -13,7 +13,3 @@ def dobro(v):
 def metade(v):
     preco = v / 2
     return preco
-
-def moeda(v):
-    preco = f'R${v:.2f}'
-    return preco
