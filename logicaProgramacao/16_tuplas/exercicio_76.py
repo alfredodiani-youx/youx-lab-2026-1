@@ -23,4 +23,8 @@ produtos = (
     "Queijo", 29.90,
     "Presunto", 24.50
 )
-
+for pos in range(0, len(produtos)):
+    if pos % 2 == 0:
+        print(f'{produtos[pos]}')
+    else:
+        print(f'R${produtos[pos]}')
