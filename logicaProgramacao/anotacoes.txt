@@ -1,0 +1,119 @@
+ + = soma
+ - = subtração
+ * = multiplicação
+ / = divisão
+ // = divisão inteira
+ % = resto
+ ** = potencia
+
+ += = adiciona um valor a variável
+ exemplo: variável += 1
+
+ -= = subtrai um valor de uma variável
+ exemplo: variável -= 1
+
+ strings = textos no python
+
+ max() = maior
+ min() = menor
+
+
+print = serve principalmente para exibir informações no terminal do código
+exemplo:
+print(f"O resultado é {variável}")
+
+: .2f = exibe com exatamente duas casas decimais.
+Como funciona:
+. (ponto): Separa a parte inteira da parte fracionária na formatação.
+2 (número): Define o número exato de casas decimais após o ponto decimal.
+f (letra): Indica que o tipo de dado é float (ponto flutuante).
+
+range() = serve para gerar uma sequência imutável de números inteiros
+
+elif = serve para verificar múltiplas condições sequenciais em uma estrutura de controle de fluxo
+usado após um if e antes de um else
+ permite testar novas condições caso as anteriores sejam falsas, executando apenas o primeiro bloco verdadeiro encontrado.
+
+input = pede para o usuário digitar algo
+
+int = define que o valor é inteiro
+
+str = define que é um texto
+
+for = faz um loop determinadas vezes
+
+if = (se) diz que o código abaixo so sera executado se..
+
+else = (senão) se o if falhou vai executar o código abaixo
+
+True = verdadeiro/definido
+
+False = nao existente/nao definido
+
+variáveis = guardam informações
+
+int => inteiro
+float => decimal
+str => texto
+
+return = encerra uma função e retorna um valor
+
+and = e
+
+or = ou
+Exemplo: nome = nome_input or "Visitante"
+
+not = nao/negativo
+
+brake = encerra o loop
+
+
+end=" " = o próximo print continuará na mesma linha, separado por um espaço.
+
+end="" = Evitar pular linha
+exemplo:
+print("Olá", end="")
+print("Mundo")
+"OláMundo".
+
+end=" " = Adicionar espaço no final
+exemplo:
+print("Olá", end=" ")
+print("Mundo")
+"Olá Mundo".
+
+float = numero que pode ter casa decimal
+
+while = Verificação: O while testa a condição antes de entrar no bloco de código.
+Execução: Se a condição for verdadeira, o código dentro do loop é executado.
+Encerramento: Se a condição for falsa, o loop é encerrado e o programa segue em frente.
+
+import = serve para trazer bibliotecas para dentro do seu script atual
+(import random) = para números aleatórios
+
+randint = serve para gerar um número inteiro aleatório dentro de um intervalo específico,
+incluindo tanto o limite inferior quanto o superior.
+
+Tuplas (): Variáveis compostas imutáveis, definidas por parênteses.
+
+Listas []: Variáveis compostas mutáveis, definidas por colchetes.
+append(): Adiciona elementos ao final.
+insert(): Insere elemento em posição específica.
+pop(), remove(), del: Comandos para remover elementos.
+sort(): Ordena a lista.
+remove() = remove um item da lista
+
+Dicionários {}:
+Estruturas de dados compostas de pares chave:valor, definidas por chaves.
+keys(): Retorna as chaves do dicionário.
+values(): Retorna os valores do dicionário.
+items(): Retorna os pares chave-valor.
+
+
+  EXEMPLOS PRÁTICOS:
+
+1) descobrir par:
+if 2 % 2 == 0:
+é par
+else:
+é ímpar
