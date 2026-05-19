@@ -1,0 +1,1 @@
+# [:] <-- transportar dados pra dentro da lista
