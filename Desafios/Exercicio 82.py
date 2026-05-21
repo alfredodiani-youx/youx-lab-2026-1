@@ -1,4 +1,6 @@
 lista = []
+pares = 0
+impares = 0
 r = 's'
 while r not in 'N':
     numero = int(input('Digite um número inteiro:'))
