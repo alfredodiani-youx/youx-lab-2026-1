@@ -1,0 +1,15 @@
+create table pedido (
+	idpedido int primary key not null,
+	idcliente int references cliente (idcliente) not null,
+	idtransportadora int references transportadora (idtransportadora),
+	idvendedor int references vendedor (idvendedor),
+	data_pedido date not null,
+	valor numeric(10,2) not null
+)
+alter table pedido drop valor
+alter table pedido add valor float not null
+select * from transportadora
+select * from pedido
+
+select * from cliente
+insert into pedido (idpedido, idcliente, idtransportadora, idvendedor, data_pedido, valor) values (1, 2008-04-01, 1300, 1, )
