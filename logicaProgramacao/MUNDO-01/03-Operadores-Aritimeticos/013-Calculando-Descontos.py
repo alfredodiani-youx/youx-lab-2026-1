@@ -1,0 +1,5 @@
+preço = float(input('qual e o preço do produto? '))
+qprod = (input('qual produto seria ? '))
+novo = preço - (preço * 10 / 100)
+print('o produto que custava R${:.2f} , na promoçao com desconto de 10% vai custar R${:.2f}'.format(preço, novo))
+print('o seu {} saira no preco de {} apos o desconto'.format (qprod, novo))
