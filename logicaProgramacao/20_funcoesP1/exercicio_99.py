@@ -1,0 +1,11 @@
+def n (*k):
+    m= max(k)
+    print('-=' * 30)
+    print('Analisando os valores passados...')
+    print(f' Em {k} foram informados ao todo {len(k)} valores.')
+    print(f'O maior numero é {m}')
+    print('-=' * 30)
+n(2,9,4,7,1)
+n(4,7,0)
+n(1,2)
+n(6)
