@@ -4,11 +4,12 @@
 # mostre quantos números foram digitados
 # e qual foi a soma entre elas (desconsiderando o flag).
 
-
+contador = 0
 soma = 0
-while True:
+numero = 0
+while numero != 999:
     numero = int(input('digite um valor (digite 999 pra parar): '))
-    if numero == 999:
-        break
     soma += numero
-print(f'a soma dos valores foi {soma}')
+    contador += 1
+print(f'a soma dos valores foi {soma-999}')
+print(f"Voce digitou {contador-1} numeros")
