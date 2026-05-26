@@ -42,11 +42,10 @@ for funcionario in funcionarios:
         Porcentagem = funcionario["Salario"] * 10 / 100
         R =  funcionario["Salario"]+ Porcentagem
 
-
-
-    novo_salario = {"Novo_Salario": R}
-    funcionarios.append(novo_salario)
-    print(funcionarios)
+    funcionario["novo_salario"] = R
+    #novo_salario = {"Novo_Salario": R}
+    #funcionarios.append(novo_salario)
+    print(funcionario)
 
 #anotacoes:
-#Nao estou conseguindo acessar as chaves especificas e colocar na area certa a chave novo_salario
+#Nn estou conseguindo acessar as chaves especificas e colocar na area certa a chave novo_salario
