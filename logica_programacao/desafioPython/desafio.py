@@ -27,19 +27,19 @@ funcionarios = [
     {"Nome": "Carolina",  "Salario": 2050, "anos_trabalhados": 4},
     {"Nome": "Henrique",  "Salario": 2500, "anos_trabalhados": 6},
 ]
-for dado in funcionarios:
-    if dado["anos_trabalhados"] > 5:
-        novoSalario= dado["Salario"] + (dado["Salario"] * 20/100)
+for dado in funcionarios: #aqui entrei dentro de todos os dados da lista funcionario
+    if dado["anos_trabalhados"] > 5: #peguei os anos trabalhados de dentro de dado e fiz 'se ele for maior que 5(anos)'
+        novoSalario= dado["Salario"] + (dado["Salario"] * 20/100) #aqui fiz a conta que é o novo salario que é um aumento de 20%
     else:
-        novoSalario = dado["Salario"]+ (dado["Salario"] * 10/100)
+        novoSalario = dado["Salario"]+ (dado["Salario"] * 10/100) #se nao for maior que 5 fiz a conta novamente porem com um aumento de 10%
 
-    dado['novo_salario'] = novoSalario
-
-
-
+    dado['novo_salario'] = novoSalario #aqui criei uma nova chave onde oque ela queria é o  salario com os aumentos
+    print(f'  Funcionário {dado['Nome']}: salário antigo = {dado['Salario']}, salário novo = {novoSalario} ')
 
 
 
+#tive dificuldade no for 
 
-#tive muita dificuldade na parte for
+
+
 
