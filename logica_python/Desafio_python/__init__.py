@@ -29,12 +29,14 @@ funcionarios = [
     {"Nome": "Carolina",  "Salario": 2050, "anos_trabalhados": 4},
     {"Nome": "Henrique",  "Salario": 2500, "anos_trabalhados": 6}
 ]
-salario_atual = ["salario"]
-novo_salario =0
-for funcionario in funcionarios:
-    if funcionario['anos_trabalhados'] > 5:
-     novo_salario = funcionario["salario"]*0.20
+for p in funcionarios:
+    if p ["anos_trabalhados"] > 5 :
+        novo_Salario = p["Salario"] * 120/100
     else:
-      novo_salario = funcionario["salario"]*1.10
-    funcionario["novo_salario"] = novo_salario
-print(f'Funcionário {funcionario["nome"]}: ,salario antigo {salario_atual["salario"]}: ,salario novo{novo_salario}')
+        novo_Salario = p["Salario"] * 110/100
+
+    p['novo_salario'] = novo_Salario
+    print(f"funcionario{p['Nome']}: salario antigo = {p['Salario']:.2f}: salario novo= {p['novo_salario']:.2f}")
+
+# tive dificuldade em mexer com o dicionario
+# tamabem na logica, na parte de interpretção
