@@ -94,8 +94,36 @@ for i in funcionarios:
     dados = (i['desconto'], i['Nome'])
     novaLista.append(dados)
 
-print('\nO RANKING FINAL ORDENADO PELO MAIOR SALARIO:')
-ranking = sorted(novaLista, reverse=True)
+    #-------------------
+listaRank = []
+def verPosicao(tupla):
+    salario = tupla[0]
+    if len(listaRank) == 0:
+        listaRank.append(tupla)
+    else:
+        maiorSalario = listaRank[0][0]
+        if salario >= maiorSalario:
+            listaRank.insert(0, tupla)
+        else:
+            for cont, funcionario in enumerate(listaRank):
+                sl = funcionario[0]
+                nm = funcionario[1]
+                if tupla in listaRank:
+                    pass
+                else:
+                    if sl > salario:
+                        pass
+                    elif sl <= salario:
+                        listaRank.insert(cont, tupla)
+    if not tupla in listaRank:
+        listaRank.insert(len(listaRank), tupla)
 
-for i in ranking:
-    print(f'Nome: {i[1]} | Salario: {i[0]:.2f}')
+
+for i in funcionarios:
+    dados = (i['desconto'], i['Nome'])
+    verPosicao(dados)
+
+print('\n\n   RANKING DOS FUNCIONARIOS COM BASE EM SEU SALARIO:')
+for salario, nome in listaRank:
+    print(f'Nome: {nome} | Salario: {salario:.2f}')
+# não obtive dificuldades!
