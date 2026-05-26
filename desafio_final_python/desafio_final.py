@@ -47,20 +47,14 @@ funcionarios = [
 ]
 for funcionario in funcionarios:
     if funcionario["anos_trabalhados"] > 5:
-        novo_salario = funcionario["salario"] * 1.2
+        novo_salario = funcionario["Salario"] * 1.2
     else:
-        novo_salario = funcionario["salario"] * 1.1
+        novo_salario = funcionario["Salario"] * 1.1
 
     funcionario["novo_salario"] = novo_salario
-
-
-
-
-
-
-
-
-    #criar uma nova chave em funcionario e atribuir o valor calculado de novo_salario
 print(funcionarios)
+
+#criar uma nova chave em funcionario e atribuir o valor calculado de novo_salario
+
 
 #travei em praticamente tudo,principalmente na parte do for e dicionario que tenho dificuldade,dificuldade de explicar oque eu fiz.
