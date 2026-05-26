@@ -1,5 +1,3 @@
-from os import PRIO_PGRP
-
 funcionarios =[ {"Nome": "José", "Salario": 1500, "anos_trabalhados": 6},
     {"Nome": "Maria", "Salario": 1800, "anos_trabalhados": 4},
     {"Nome": "João", "Salario": 2200, "anos_trabalhados": 8},
@@ -30,51 +28,32 @@ funcionarios =[ {"Nome": "José", "Salario": 1500, "anos_trabalhados": 6},
     {"Nome": "Carolina", "Salario": 2050, "anos_trabalhados": 4},
     {"Nome": "Henrique", "Salario": 2500, "anos_trabalhados": 6},]
 
-maiorde5 = []
-maiorde5Novo = []
-menorDe5 = []
-menorDe5Novo = []
-for a,b in enumerate(funcionarios):
-    for c,d in b.items():
-        if c in {"anos_trabalhados"}:
-            if d > 5:
-                maiorde5.append(b)
-            elif d <= 5:
-                menorDe5.append(b)
-for a,b in enumerate(maiorde5):
-    for c,d in b.items():
-        maiorde5Novo.append(c)
-        maiorde5Novo.append(d)
-        if c in {"Salario"}:
-            d += d * 20 / 100
-            maiorde5Novo.append("SalarioNovo")
-            maiorde5Novo.append(d)
-for a,b in enumerate(menorDe5):
-    for c,d in b.items():
-        menorDe5Novo.append(c)
-        menorDe5Novo.append(d)
-        if c in {"Salario"}:
-            d += d * 10 / 100
-            menorDe5Novo.append("SalarioNovo")
-            menorDe5Novo.append(d)
-
-
+maiorde5 = dict()
+maiorde5Lista = []
+menorDe5 = dict()
+menorDe5Lista = []
+for a in funcionarios:
+    if a["anos_trabalhados"] > 5:
+        maiorde5.clear()
+        maiorde5['Funcionario'] = a["Nome"]
+        maiorde5['Salario Antigo'] = a["Salario"]
+        novoMaior = a["Salario"] + (a["Salario"] * 20 / 100)
+        maiorde5['Salario Novo'] = novoMaior
+        maiorde5Lista.append(maiorde5.copy())
+    elif a["anos_trabalhados"] <= 5:
+        menorDe5.clear()
+        menorDe5['Funcionario'] = a["Nome"]
+        menorDe5['Salario Antigo'] = a["Salario"]
+        novoMenor = a["Salario"] + (a["Salario"] * 10 / 100)
+        menorDe5['Salario Novo'] = novoMenor
+        menorDe5Lista.append(menorDe5.copy())
 print('==============> Lista De Funcionarios <==============')
 print('   Funcionarios com mais de 5 anos na empresa:')
-for a,b in enumerate(maiorde5Novo):
-    if b in :
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+for a in maiorde5Lista:
+    print(f'Funcionario {a['Funcionario']}: Salario Antigo: {a['Salario Antigo']} Salario Novo: {a['Salario Novo']}')
+print('   Funcionarios com 5 anos ou menos na empresa:')
+for a in menorDe5Lista:
+    print(f'Funcionario {a['Funcionario']}: Salario Antigo: {a['Salario Antigo']} Salario Novo: {a['Salario Novo']}')
+# ============ Dificuldades ============ #
+# 1- Tive um pouco de dificuldade para entrar dentro do salario eu tinha feito uma ligica muito complicada para esse exercicio mais com uma ajudade de 1 minuto eu resolvi o exercicio sem muitas dificuldades
+# 2- A maior dificuldade mesmo foi usar a lista mais sem ser isso o resto foi facil fiquei a maior parte do exercicio mesm olhando um jeito de resolver com acertos e erros

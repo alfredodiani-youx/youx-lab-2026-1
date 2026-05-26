@@ -30,36 +30,30 @@ funcionarios =[ {"Nome": "José", "Salario": 1500, "anos_trabalhados": 6},
 
 maiorde5 = dict()
 maiorde5Lista = []
-menorDe5 = []
+menorDe5 = dict()
 menorDe5Lista = []
-for a,b in enumerate(funcionarios):
-    for c,d in b.items():
+for a in funcionarios:
+    if a["anos_trabalhados"] > 5:
         maiorde5.clear()
-        if c in "Nome":
-            maiorde5['Funcionario:'] = d
-        if c in "Salario":
-            maiorde5['Salario Antigo:'] = d
-            novo = d + (d * 20 / 100)
-            maiorde5['Salario Novo:'] = novo
+        maiorde5['Funcionario'] = a["Nome"]
+        maiorde5['Salario Antigo'] = a["Salario"]
+        novoMaior = a["Salario"] + (a["Salario"] * 20 / 100)
+        maiorde5['Salario Novo'] = novoMaior
         maiorde5Lista.append(maiorde5.copy())
-print(maiorde5Lista)
-
-
-
+    elif a["anos_trabalhados"] <= 5:
+        menorDe5.clear()
+        menorDe5['Funcionario'] = a["Nome"]
+        menorDe5['Salario Antigo'] = a["Salario"]
+        novoMenor = a["Salario"] + (a["Salario"] * 10 / 100)
+        menorDe5['Salario Novo'] = novoMenor
+        menorDe5Lista.append(menorDe5.copy())
 print('==============> Lista De Funcionarios <==============')
 print('   Funcionarios com mais de 5 anos na empresa:')
 for a in maiorde5Lista:
-    print(a, end='')
-    if a == {'Funcionario:'}:
-        print()
-
-
-
-
-
-
-
-
+    print(f'Funcionario {a['Funcionario']}: Salario Antigo: {a['Salario Antigo']} Salario Novo: {a['Salario Novo']}')
+print('   Funcionarios com 5 anos ou menos na empresa:')
+for a in menorDe5Lista:
+    print(f'Funcionario {a['Funcionario']}: Salario Antigo: {a['Salario Antigo']} Salario Novo: {a['Salario Novo']}')
 
 
 
