@@ -32,19 +32,27 @@ funcionarios = [
 ]
 
 for funcionarios in funcionarios: #
-    if funcionarios["anos_trabalhados"] >5:
-        novo_salario = funcionarios["salario"] * 0.20
 
-for funcionarios in funcionarios:
-    if funcionarios["anos_trabalhados"] <= 5:
-        novo_salario = funcionarios["}salarios"] * 0.10
-
+    if funcionarios["anos_trabalhados"] > 5:
+        aumentar = funcionarios["Salario"] * 20/100
+        funcionarios["novo_salario"] = funcionarios['Salario'] + aumentar
+        print(f" O aumento do funcionario foi de {aumentar}")
 
 
+    elif funcionarios ['anos_trabalhados'] <= 5:
+        aumentar = funcionarios["Salario"] * 10/100
+        funcionarios["novo_salario"] = funcionarios['Salario'] + aumentar
+        print(f"O aumento do funcionario foi de {aumentar}")
 
-# a dúvida é dificuldade de iniciar
+    print(f"Funcionarios {funcionarios["Nome"]} salario antigo {funcionarios['Salario']} salario novo: {funcionarios['novo_salario']}")
 
 
+
+
+
+
+
+# a dúvida é: dificuldade de iniciar os exercícios, como fazer a porcentagem, percorrer a lista funcionarios com for.
 
 
 
