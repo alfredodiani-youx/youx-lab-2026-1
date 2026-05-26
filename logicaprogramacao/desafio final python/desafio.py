@@ -30,14 +30,14 @@ funcionarios = [
     {"Nome": "Henrique",  "Salario": 2500, "anos_trabalhados": 6},
 ]
 
-#o for é pra recorrer a lista funcionários.
-for funcionario in funcionarios:
+for funcionario in funcionarios: #o for é pra recorrer a lista funcionários.
     if funcionario["anos_trabalhados"] > 5: #o if é pra mostra se funcionário trabalhou tal anos, ele receberá um aumento no valor tal.
-       novo_salario = ["salario"] * 0,20 #a variável novo salário é pra criar o novo salário com o aumento recebido usando a porcetagem.
+        aumento_salario = funcionario["Salario"] * 0.20 #a variável novo salário é pra criar o novo salário com o aumento recebido usando a porcetagem.
+        funcionario["novo_salario"] = funcionario["Salario"] + aumento_salario
 
-for funcionario in funcionarios:
-    if funcionario["anos_trabalhados"] <= 5:
-        novo_salario = ["salario"] * 0,10
+    elif funcionario["anos_trabalhados"] <= 5:
+        aumento_salario = funcionario["salario"] * 0.10
+        funcionario["novo_salario"] = funcionario["Salario"] + aumento_salario
+print(f'Funcionario salario antigo salario novo')
 
-
-#tenho dúvida de como começar do zero
+#tive dificuldade em começar do zero e tive dificuldade de acessar os valores
