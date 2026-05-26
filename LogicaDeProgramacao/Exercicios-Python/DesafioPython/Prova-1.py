@@ -1,3 +1,5 @@
+from os import PRIO_PGRP
+
 funcionarios =[ {"Nome": "José", "Salario": 1500, "anos_trabalhados": 6},
     {"Nome": "Maria", "Salario": 1800, "anos_trabalhados": 4},
     {"Nome": "João", "Salario": 2200, "anos_trabalhados": 8},
@@ -28,30 +30,41 @@ funcionarios =[ {"Nome": "José", "Salario": 1500, "anos_trabalhados": 6},
     {"Nome": "Carolina", "Salario": 2050, "anos_trabalhados": 4},
     {"Nome": "Henrique", "Salario": 2500, "anos_trabalhados": 6},]
 
-maiorde5 = dict()
-maiorde5Lista = []
+maiorde5 = []
+maiorde5Novo = []
 menorDe5 = []
-menorDe5Lista = []
+menorDe5Novo = []
 for a,b in enumerate(funcionarios):
     for c,d in b.items():
-        maiorde5.clear()
-        if c in "Nome":
-            maiorde5['Funcionario:'] = d
-        if c in "Salario":
-            maiorde5['Salario Antigo:'] = d
-            novo = d + (d * 20 / 100)
-            maiorde5['Salario Novo:'] = novo
-        maiorde5Lista.append(maiorde5.copy())
-print(maiorde5Lista)
-
+        if c in {"anos_trabalhados"}:
+            if d > 5:
+                maiorde5.append(b)
+            elif d <= 5:
+                menorDe5.append(b)
+for a,b in enumerate(maiorde5):
+    for c,d in b.items():
+        maiorde5Novo.append(c)
+        maiorde5Novo.append(d)
+        if c in {"Salario"}:
+            d += d * 20 / 100
+            maiorde5Novo.append("SalarioNovo")
+            maiorde5Novo.append(d)
+for a,b in enumerate(menorDe5):
+    for c,d in b.items():
+        menorDe5Novo.append(c)
+        menorDe5Novo.append(d)
+        if c in {"Salario"}:
+            d += d * 10 / 100
+            menorDe5Novo.append("SalarioNovo")
+            menorDe5Novo.append(d)
 
 
 print('==============> Lista De Funcionarios <==============')
 print('   Funcionarios com mais de 5 anos na empresa:')
-for a in maiorde5Lista:
-    print(a, end='')
-    if a == {'Funcionario:'}:
-        print()
+for a,b in enumerate(maiorde5Novo):
+    if b in :
+
+
 
 
 

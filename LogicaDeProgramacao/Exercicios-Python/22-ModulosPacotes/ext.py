@@ -11,6 +11,7 @@ def metade(valor1 = 0, format = False):
 
 
 def dobro(valor1 = 0, format = False):
+    
     res = valor1 * 2
     return res if format is False else valor(res)
 
