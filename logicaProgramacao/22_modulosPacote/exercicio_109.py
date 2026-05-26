@@ -3,3 +3,4 @@ def moeda(preco = 0, moeda ='R$', formatar = False):
         return f'{moeda}{preco:.2f}'.replace('.', ',')
     else:
         return preco
+print(moeda(10, formatar=True))

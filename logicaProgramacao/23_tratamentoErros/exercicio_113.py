@@ -11,3 +11,5 @@ def leia_num(msg,tipo):
 
         else:
             return n
+numero= leia_num('digite um numero :', float)
+print(f'{numero}')

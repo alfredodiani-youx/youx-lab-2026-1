@@ -2,7 +2,7 @@
 #.insert(0,'algo') <-- adicionar algo antes de todos
 #.del[numero da chave] <-- eliminar algum item
 #.pop(numero da chave) <-- eliminar o ultimo item
-#.remove('algo') <-- remover ao item, valor, e reposiciona a lista
+#.remove('algo') <-- remover o item, valor, e reposiciona a lista
 #if 'algo' in lista <-- só remove se estiver dentro da lista
 #variavel= list(range(numero que vc quer na lista)) <-- criar uma lista
 #sort() <-- colocar embaralhado os numeros

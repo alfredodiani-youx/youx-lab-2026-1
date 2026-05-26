@@ -7,3 +7,6 @@ def formatar(txt):
         texto += "0"
     texto = texto.replace(".", ",")
     return f"R${texto}"
+print(formatar(10))
+print(formatar(10.5))
+print(formatar(10.55))

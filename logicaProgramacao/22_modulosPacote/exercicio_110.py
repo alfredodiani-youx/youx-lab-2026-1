@@ -13,3 +13,4 @@ def resumo(preco, aumento, reducao):
     print(f'dobro do preco: \t{moeda(dobro(preco))}')
     print(f'metade do preco: \t{moeda(aumentar(preco, aumento))}')
     print(f'{reducao}$ de reducao: \t{moeda(diminuir(preco, reducao))}')
+resumo(100, 20, 12)
