@@ -86,12 +86,13 @@ while escolha != 4:
                     if id_pe == c['id']:
 
                         quant = int(input('Quantidade: '))
-                        while quant >= 0:
+
+                        # while quant >= 0:
                             #if quant == 0
-                          if quant >= 1:
+                          # if quant >= 1:
                               #soma_pedido = quant * c['preco']
-                            print('Adicionado ao carriho')
-                            resp = 'N'
+                            # print('Adicionado ao carriho')
+                            # resp = 'N'
                     #else:
                     #     print('ERRO! digite o id ')
                     #     quant = int(input('R:'))
