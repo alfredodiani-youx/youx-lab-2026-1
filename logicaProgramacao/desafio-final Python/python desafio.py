@@ -37,8 +37,4 @@ for funcionario in funcionarios:
         novo_salario = funcionario["Salario"] * 1.10
 
     funcionario["novo_salario"] = novo_salario
-    print(f'Funcionário: {funcionario["Nome"]}: Salário antigo = {funcionario["Salario"]} Novo salário: {novo_salario}')
-
-
-
-#eu estou com muita dificuldade em listas e em for,
+    print(f'Funcionário: {funcionario["Nome"]}: Salário antigo = {funcionario["Salario"]} Novo salário: {novo_salario:.2f}')
