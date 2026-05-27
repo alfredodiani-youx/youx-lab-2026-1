@@ -78,10 +78,10 @@ Ao rodar o programa, a primeira coisa que o sistema deve fazer é exibir uma men
 ## 🖥️ 3. O Menu Principal
 Após pegar o nome do usuário, o sistema deve entrar em um loop contínuo e exibir o seguinte menu:
 
-**[1] Ver Cardápio e Avaliações**
-**[2] Adicionar Item ao Pedido**
-**[3] Finalizar Pedido**
-**[4] Sair do Sistema**
+**[1] Ver Cardápio e Avaliações** \
+**[2] Adicionar Item ao Pedido** \
+**[3] Finalizar Pedido** \
+**[4] Sair do Sistema** 
 
 O usuário digitará o número correspondente. Se digitar uma opção inválida, o sistema avisa o erro e mostra o menu novamente.
 
