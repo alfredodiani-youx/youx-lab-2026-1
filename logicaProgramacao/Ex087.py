@@ -13,9 +13,4 @@ print(f"A soma dos pares e {par}")
 for l in range(0, 3):
     coluna += matriz[l][2]
 print(f'A soma da terceira coluna e {coluna}')
-for c in range(0,3):
-    if c == 0:
-        mai = matriz[1][c]
-    elif matriz[1][c] > mai:
-        mai = matriz[1][c]
-print(f'O maior valor da segunda linha e {mai}')
+print(f'O maior valor da segunda linha e {max(matriz[1])}')

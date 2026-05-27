@@ -4,8 +4,8 @@ while continuacao == 'S':
     print('-=-' * 10)
     valor = int(input("Digite um número: "))
     print('Valor adicionado com sucesso...')
-    continuacao = str(input('Deseja Continuar? [S/N]: ')).upper().strip()
-
+    continuacao = str(input("Deseja continuar? [S/N]: ")).strip().upper()
+    if continuacao == 'N':
 
     if not(valor in lista):
         lista.append(valor)
