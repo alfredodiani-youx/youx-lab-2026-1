@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/PythinPOO/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/desafioLogica/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-1/04-tiposPrimitivos/desafioTiposPrimitivos/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-1/05-operacoesAritmeticas/desafiosOperacoes/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-1/06-utilizandoModulos/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-1/06-utilizandoModulos/desafiosUtilizandoModulos/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-1/07-manipulandoTexto/desafiosManipulandoTexto/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-1/08-condicoes/desafiosCondicoes/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-1/09-coresTerminal/exemplosVideo/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-2/12-condicoesAninhadas/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-2/13-estruturaRepeticao/desafios/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-2/14-estruturaRepeticaoWhile/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-2/14-estruturaRepeticaoWhile/desafios/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-2/15-interrompendoRepeticoesWhile/desafios/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-3/16-tuplas/desafios/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-3/17-listas/desafios/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-3/18-listas2/desafios/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-3/19-dicionarios/desafios/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-3/20-funcoes/desafios/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-3/21-funcoes2/desafio/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-3/22-modulosPacotes/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-3/22-modulosPacotes/desafios/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-3/23-tratamento-de-erros-excecoes/desafios/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/logicaProgramacao/mundo-3/desafiologica/.venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.12 (youx-lab-2026-1)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="format" value="PLAIN" />
+    <option name="myDocStringFormat" value="Plain" />
+  </component>
+</module>
