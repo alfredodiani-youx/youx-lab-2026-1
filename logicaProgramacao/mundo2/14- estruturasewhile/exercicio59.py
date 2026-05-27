@@ -8,7 +8,7 @@
 
 
 numero1 =int(input('digite seu primeiro valor:'))
-numero2 =int(input('digite seu segundo valor:'))
+numero2 =int(input('digite seu segundo valor:'))*
 opcao = 0
 maior = 0
 while  opcao !=5:
