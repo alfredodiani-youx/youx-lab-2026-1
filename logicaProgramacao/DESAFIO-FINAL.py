@@ -41,6 +41,7 @@ for c in funcionarios:
         novo_salario = ((c['Salario'] * 10) / 100 ) + c["Salario"]
     c["novo_salario"] = novo_salario
     print('≃~' * 32)
-    print(f'Funcionário {c['Nome']}: salário antigo, = {c['Salario']} salário novo = {novo_salario}')
+    print(f'Funcionário {c['Nome']}: salário antigo, = {c['Salario'
+    ]} salário novo = {novo_salario}')
 print('≃~'*32)
 
