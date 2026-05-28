@@ -13,4 +13,4 @@ while True:
      break
 print(f"A lista de numeros digitados é {lista}")
 print(f"A lista de numeros pares é {lista_par}")
-print(f"A lista de numeros em impares é {lista_impar
+print(f"A lista de numeros em impares é {lista_impar}
